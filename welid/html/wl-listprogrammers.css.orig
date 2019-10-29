@@ -1,0 +1,175 @@
+/*nav*/
+.jennis-navbar{
+    width: 100vw;
+    height: 8vw;
+}
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar{
+    padding: 20px 0;
+
+}
+
+.navbar-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #262626;
+}
+
+.nav-item{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #262626;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #262626;
+    padding: 5px 15px;
+}
+.btnd1:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    color: #fff;
+    border: 2px solid #7f7f7f;
+    border-radius: 0;
+    outline: none;
+}
+
+/*nav*/
+
+/*list programmers*/
+.programmers{
+    width: 100vw;
+    height: 100vw;
+    
+}
+.welid{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 8vw;
+    text-align: center;
+}
+.welid1{
+    display: flex;
+    transform: translate(6%,1%);
+}
+.welid2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-left: 1%;
+    transform: translate(6%,5%);
+    text-align: center;
+}
+.welid3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 4%;
+    transform: translate(7%,30%);
+    text-align: center;
+}
+.col{
+    margin-right:200px;
+    padding-bottom: 0%;
+}
+.col-1{
+    margin-right:44px;
+    padding: 10%;
+    
+}
+.child{
+    display: flex;
+    margin: 4%;
+    transform: translate(135%,5%);
+}
+ 
+ .card img{
+    border-radius: 5%;
+     width: 150px;
+     margin: auto;
+     height: 150px;
+}
+/*programmers*/
+
+
+/*bottom footer with company logos*/
+
+.logo-div{
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem; 
+}
+
+.logo-div img{
+    width: 20%;
+}
+
+/*bottom footer with links*/
+
+.bottom-menu ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.bottom-menu li{
+    list-style-type: none;
+    display: inline;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+@media (max-width: 768px){
+    .bottom-menu li{
+        list-style-type: none;
+        display: inline-block;
+        margin: 1rem;
+    }
+}
+.bottom-menu li a {
+    color: black;
+}
+.bottom-menu li a:hover{
+    font-weight: bolder;
+    background-color: rgb(199, 191, 191);
+}
+.bottom-menu-container{
+    border: none;
+    padding: 1rem;
+    background-color: rgb(199, 191, 191);
+    color: white;
+    width: 100vw;;
+}
+
+/*copyright footer*/
+
+.copyright-footer{
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: rgba(15, 1, 1, 0.89);
+    
+    width: 100vw;
+}
+
+.copyright-footer footer{
+    color: rgb(224, 224, 187);
+}
