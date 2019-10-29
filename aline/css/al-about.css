@@ -197,7 +197,8 @@ input.form-control{
 
 .contact-us {
     margin: 0 auto;
-    padding: 0;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     width: 75vw;
   }
   
