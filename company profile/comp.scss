@@ -1,0 +1,140 @@
+h3{
+    line-height: 2;
+}
+
+#logo{
+    grid-area: log;
+    width: 100%;
+}
+#des{
+    grid-area: des;
+}
+#title{
+    grid-area: nam;
+}
+#open-title{
+    grid-area: title;
+    text-align: center;
+}
+#open{
+    grid-area: pos;
+}
+#tes{
+    grid-area: tes;
+    width: 100%;
+    height: 75%;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.card-footer {
+    padding: 5% 25%;
+}
+/*-----------------external code starting here!-------------*/
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar{
+    padding: 20px 0;
+
+}
+
+.navbar-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #262626;
+}
+
+.nav-item{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #262626;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #262626;
+    padding: 5px 15px;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    color: #fff;
+    border: 2px solid #7f7f7f;
+    border-radius: 0;
+    outline: none;
+}
+/*bottom footer with company logos*/
+
+.logo-div{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem; 
+}
+
+.logo-div img{
+    width: 40%;
+}
+
+/*bottom footer with links*/
+
+.bottom-menu ul{
+    text-align: center;
+    display: flex;
+    
+    justify-content: center
+}
+.bottom-menu li{
+    list-style-type: none;
+    display: inline;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+@media (max-width: 768px){
+    .bottom-menu li{
+        list-style-type: none;
+        display: inline-block;
+        margin: 1rem;
+    }
+}
+.bottom-menu li a {
+    color: black;
+}
+.bottom-menu li a:hover{
+    font-weight: bolder;
+    background-color: rgb(199, 191, 191);
+}
+.bottom-menu-container{
+    border: none;
+    padding: 1rem;
+    background-color: rgb(199, 191, 191);
+    color: white;
+    width: 100vw;;
+}
+
+/*copyright footer*/
+
+.copyright-footer{
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: rgba(15, 1, 1, 0.89);
+    
+    width: 100vw;
+}
+
+.copyright-footer footer{
+    color: rgb(224, 224, 187);
+}
+
