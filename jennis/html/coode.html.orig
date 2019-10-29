@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/coode.css">
+    <title>find a coder</title>
+</head>
+<body>
+<header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">find a coder</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="coode.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../../aline/html/about-us.html">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../aline/html/company-form.html">hire</a>
+                          </li>
+                          <li class="nav-item">
+                     <a class="nav-link" href="../../aline/html/coder-form.html">work</a>
+                     </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="../../aline/html/contact.html">contact</a>
+                      </li>
+                    <li class="nav-item">
+               <a class="nav-link" href="login.html">log in</a>
+               </li>
+                  </ul>             
+                </div>
+              </nav>
+</header>
+<section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <h1>we will always be there when you need us the most</h1>
+                <p>
+                    find-a-coder
+                </p>
+                <a href="/aline/html/about-us.html" class="btnd1">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="card-group"> 
+  <div class="card" style="background-image: url('img15-3.jpg');"> 
+    <div class="card-body"> <hr> <br> <br>
+      <h1 class="card-title">coder</h1> 
+      <p class="card-text">find the job that you deserve</p> <br>
+      <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">log in</a>
+      <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">register</a>
+     
+      </p> 
+    </div> 
+  </div> 
+  <div class="card" style="background-image: url('img15-2.jpg');">  
+    <div class="card-body"> <hr> <br> <br>
+      <h1 class="card-title">company</h1> 
+      <p class="card-text">the search for a coder ends here</p> <br>
+      <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">log in</a>
+      <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">register</a>
+</div> 
+</div> 
+</div>
+
+<!--Company logos footer-->
+<div class="container-fluid">
+  <h1 class="text-center">Trusted by businesses such as</h1>
+  <div class="logo-div">
+    <div>
+      <img src="../../aline/images/logos/logo1.jpg" alt="">
+    </div>
+    <div>
+      <img src="../../aline/images/logos/logo2.png" alt="">
+    </div>
+    <div>
+      <img src="../../aline/images/logos/logo3.jpg" alt="">
+    </div>
+    <div>
+      <img src="../../aline/images/logos/logo4.png" alt="">
+    </div>
+    <div>
+      <img src="../../aline/images/logos/logo5.png" alt="">
+    </div>
+    <div>
+      <img src="../../aline/images/logos/logo6.png" alt="">
+    </div>
+    <div>
+        <img src="../../aline/images/logos/logo7.jpg" alt="">
+      </div>
+  </div><!--/logo-div-1-->
+
+
+
+    <div class="logo-div">
+      <div>
+        <img src="../../aline/images/logos/logo8.jpg" alt="">
+      </div>
+      <div>
+        <img src="../../aline/images/logos/logo9.jpg" alt="">
+      </div>
+      <div>
+        <img src="../../aline/images/logos/logo10.png" alt="">
+      </div>
+      <div>
+        <img src="../../aline/images/logos/logo11.png" alt="">
+      </div>
+      <div>
+        <img src="../../aline/images/logos/logo12.png" alt="">
+      </div>
+      <div>
+        <img src="../../aline/images/logos/logo13.jpg" alt="">
+      </div>
+    </div><!--/logo-div-2-->
+  </div>
+
+
+
+
+
+    <!-- Javascritp -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="app.js">
+</body>
+</html>
