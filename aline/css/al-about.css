@@ -118,6 +118,7 @@ div.row.text-uppercase.text-lg-center{
     margin: 0 auto;
     width: 75vw;
     margin-bottom: 0!important;
+    border-radius: 1%;
     
 }
 .jumbotron h1{
@@ -125,11 +126,11 @@ div.row.text-uppercase.text-lg-center{
     margin-right: 3rem;
     
 }
-.jumbotron-grey{
-    background-color: rgba(47, 47, 49, 0.877);/*added bit more transparency*/
+.jumbotron.jumbotron-grey{
+    background-color: #e9ecef;
     color: black;
     margin: O auto;
-    border-radius: 5%;
+    
 }
 .jumbotron.jumbotron-white{
     background-color: #fff;
@@ -216,6 +217,10 @@ input.form-control{
   
 
 /* PRIVACY POLICY */
+.contact-us{
+  background-color: #e9ecef;
+  border-radius: 1%;
+}
 .privacy {
     width: 75vw;
   }
