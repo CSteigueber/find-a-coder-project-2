@@ -53,6 +53,7 @@ font-weight: 800;
 .btnd1:hover{
     color: #fff;
     text-decoration: none;
+    text-transform: none;
 }
 
 .navbar-light .navbar-toggler{
