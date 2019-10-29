@@ -178,12 +178,13 @@ input.form-control{
     
 }
 .submit-container{
-  width: 30vw; /*defining width like this made the btn central*/
+  width: 75vw; /*defining width like this made the btn central*/
   margin: 0 auto;
-  
   justify-content: center;
 }
-
+.submit-container-row{
+  padding-left: 20vw;
+}
 /*CONTACT US*/
 
 .contact-us {
